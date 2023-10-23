@@ -15,7 +15,16 @@
 
                 <div class="card-body">
                     <h1><%= title %></h1>
-                    <p>Welcome to <%= title %></p>
+                    <p>Welcome to <%= tagline %></p>
+                    <ul>
+                        <% mascots.forEach(function(mascot) { %>
+                            <li>
+                                <strong><%= mascot.name %></strong>
+                                representing <%= mascot.organization %>,
+                                born <%= mascot.birth_year %>
+                            </li>
+                        <% }); %>
+                    </ul>
                 </div>
 
                 <div class="card-footer">
