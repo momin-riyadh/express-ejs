@@ -1,9 +1,16 @@
-<% include ("header") %>
-
+<!doctype html>
+<html lang="en">
+<head>
+    <%- include("partials/header"); -%>
+</head>
+<body>
 
 <h1><%= message %></h1>
 <h2><%= error.status %></h2>
 <pre><%= error.stack %></pre>
 
+<%- include("partials/footer"); -%>
+</body>
+</html>
 
-<%- include ("footer") %>
+
