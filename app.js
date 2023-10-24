@@ -10,6 +10,8 @@ const portfolioRouter = require('./routes/portfolio');
 const contactRouter = require('./routes/contact');
 const bookmarkRouter = require('./routes/bookmark');
 const fyloRouter = require('./routes/fylo');
+const insureRouter = require('./routes/insure');
+const manageRouter = require('./routes/manage');
 
 const app = express();
 
@@ -29,6 +31,8 @@ app.use('/portfolio', portfolioRouter);
 app.use('/contact', contactRouter);
 app.use('/bookmark', bookmarkRouter);
 app.use('/fylo', fyloRouter);
+app.use('/insure', insureRouter);
+app.use('/manage', manageRouter);
 
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {
