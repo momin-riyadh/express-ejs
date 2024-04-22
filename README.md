@@ -25,7 +25,7 @@ This repository contains a minimalist personal portfolio website built as a solu
 **Getting Started**
 -------------------
 
-1.  Clone the repository: `git clone https://github.com/your-username/minimalist-portfolio.git`
+1.  Clone the repository: `https://github.com/momin-riyadh/express-ejs.git`
 2.  Install dependencies: `npm install`
 3.  Start the development server: `npm start`
 4.  Open your browser and navigate to `http://localhost:3000`
